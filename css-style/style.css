@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    
+}
+
+/* navbar top */
+.navbar .container{
+    color: #FFF;
+}
+.navbar-brand img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(201, 255, 159);
+    margin-right: 10px;
+    
+}
+
+
+.jumb-img img{
+    border-radius:90px 50% 90px 0;
+    border: 2px solid white;
+    
+}
+.offcanvas-header{
+   background-color: rgb(49, 67, 34);
+    
+}
+
+
+.navIcon i{
+    color: rgb(211, 211, 107);
+    
+}
+.navIcon ul{
+    background-color: rgb(118, 141, 122);
+  
+}
+
+.container button{
+    border: none;
+}
+
+
+
+
+
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: #cdffc8;
+   padding-top: 7rem;
+   background-image: url(../img/daun.jpg);
+   background-size: cover;
+   background-position: center;
+   color: #FFF;
+   text-shadow: 2PX 3PX 3PX grey;
+   background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+
+.navbar-toggler{
+    border: none;
+}
+/* jumbotron  end*/
+
+/* project */
+.pro-b{
+    background-color:#edfeeb ;
+    margin-top: -1%;
+}
+.card-body{
+    content-visibility: hidden;
+}
+.card-body:hover{
+    content-visibility: auto;
+
+}
+.container .card{
+    opacity: 0;
+    transition: 3s;
+    transform: translate(200px, 0);
+}
+.container .card.tumb{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.container .bio{
+    opacity: 0;
+    transition: 2s;
+    transform: translate(-200px,0);
+}
+
+.container .skill{
+    opacity: 0;
+    transition: 4s;
+    transform: translate(200px,0);
+}
+.bio.kiri,.skill.kanan{
+    opacity: 1;
+    transform: translate(0px,0);
+}
+
+/* project end */
+
+/* foooter */
+footer{
+    padding-bottom: 5px;
+}
+.i-sos a{
+    text-decoration: none;
+    margin: 4px;
+}
+.i-sos .wa-i{
+    color: rgb(22, 185, 0);
+    
+}
+.i-sos .ig-i{
+    color: rgb(255, 56, 56);
+}
+/* footer end */
+
+/* content plus */
+section{
+    padding-top: 7rem;
+}
+
+svg{
+    margin-bottom: -1%;
+    position: relative;
+   
+}
+
+
+
+/* keyframe */
+@keyframes kotak {
+    0% {
+        width: 200px;
+    }
+    100% {
+        width: 220px;
+        border-radius: 0%;
+    }
+
+}

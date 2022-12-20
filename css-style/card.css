@@ -1,0 +1,126 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container-1{
+    width: 30%;
+    float: right;
+    background: linear-gradient(to left, rgb(105, 77, 1),rgb(243, 211, 140),rgb(255, 255, 255));
+    border-radius: 30px 0px 0px 30px;
+    
+   
+}
+.container{
+    margin-left: -50%;
+    width: 300px;
+    height: 400px;
+    background: #000;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .25s ease;
+    backface-visibility: hidden;
+    box-shadow: -15px 16px 15px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -15px 16px 15px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 16px 15px 2px rgba(0,0,0,0.75);
+}
+.container:hover{
+    transform: scale(.9);
+    
+}
+.container:hover::after{
+    height: 200px;
+}
+.container:hover .cont-text p{
+    margin-bottom: 0px;
+    opacity: 1;
+}
+.container:hover img{
+    transform: scale(1.25);
+}
+.container:hover .ul{
+    transform: translate(0);
+    opacity: 1;
+}
+.container:after{
+    width: 100px;
+    content: '';
+    left: 0px;
+    bottom: 0px;
+    height: 150px;
+    position: absolute;
+    background: linear-gradient(100deg, rgba(0,8,9,0)0%, rgba(0,8,9,1)100%);
+    z-index: 2;
+    transition: all .25s ease;
+
+}
+.container img{
+    height: 100%;
+    z-index: 10;
+    transition: all .25s ease;
+}
+.container img:hover{
+    background-color: rgb(0, 0, 0);
+    opacity: 20%;
+}
+.container .cont-text{
+    z-index: 30;
+    position: absolute;
+    bottom: 0px;
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    padding-bottom: 27px;
+    background-color:  rgba(148, 147, 147,0.5,) ;
+    
+    
+}
+.container .cont-text h2{
+    margin-bottom: 20px;
+}
+.container .cont-text p {
+    background-color:  rgba(148, 147, 147,0.4) ;
+    border-radius: 10%;
+    border: 1px solid rgb(211, 205, 205);
+    padding: 10%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    opacity: 8;
+    margin-bottom: -190%;
+    transition: all .25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.container .cont-text p button{
+    padding: 7px 17px;
+    border-radius: 12px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: auto;
+    cursor: pointer;
+    transition: all .25s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  .75rem;
+    outline: none;
+
+}
+.container .cont-text p button a{
+    text-decoration: none;
+    color: rgb(255, 251, 31);
+}
+.container .cont-text p button a:hover{
+    color: #000;
+}
+.container .cont-text p button:hover{
+    background: #fff;
+    color: #000;
+}

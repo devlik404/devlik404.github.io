@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css-style/style.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- icon end -->
+ 
+
+  </head>
+  <body>
+    
+    <!-- navbar -->
+      <nav class="navbar navbar-expand-sm text-bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="../img/1.gambar.jpg" alt="">Malik Fajar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto  " >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">project</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" role="none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                  <i class="bi bi-filter-left"></i>
+                </a>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ <!-- navbar end-->
+ <!-- -==================-========================================== -->
+        <!-- icon-nav -->
+        <div class="offcanvas offcanvas-end  col-nav d-flex flex-column flex-shrink-0 bg-dark navIcon" style="width: 4.5rem;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <a href="https://github.com/" class="offcanvas-header d-block p-3 link-dark text-decoration-none" title="Git-Hub" data-bs-toggle="tooltip" data-bs-placement="right">
+            <i class="bi bi-github"  ></i>
+            <span class=" visually-hidden">Git-Hub</span>
+          </a>
+          <ul class="offcanvas-body  nav nav-pills nav-flush flex-column mb-auto text-center">
+            <li class="nav-item icon-Nav">
+              <a href="#"  class=" nav-link active bg-secondary py-3 border-bottom rounded-0" aria-current="page" title="Home" role="none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i id="home1" class="bi bi-grid-3x3-gap-fill"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link py-3 border-bottom rounded-0" title="My instagram" data-bs-toggle="tooltip" data-bs-placement="right">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link py-3 border-bottom rounded-0" title="linkedin" data-bs-toggle="tooltip" data-bs-placement="right">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=085810641060" class="nav-link py-3 border-bottom rounded-0" title="Contact me" data-bs-toggle="tooltip" data-bs-placement="right">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/index.html#" class="nav-link py-3 border-bottom rounded-0" title="Share Link" data-bs-toggle="tooltip" data-bs-placement="right">
+                <i class="bi bi-share-fill"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- <div class="dropdown border-top">
+            <a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="gambar1 (2).jpg" alt="mdo" width="24" height="24" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small shadow">
+              <li><a class="dropdown-item" href="#">My Profile</a></li>
+              <li><a class="dropdown-item" href="#">My project</a></li>
+              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div> -->
+        </div>
+        <!-- icon-Nav End -->
+    
+<!-- ======================================================= -->
+
+     <!-- jumbotron -->
+     <section id="jumbo" class="jumbotron text-center ">
+      <div class="jumb-img" ><img src="../img/1.gambar.jpg" alt="my profile" width="200px" ></div>
+      <h1 class="display-4 fw-bolder">Malik Fajar</h1>
+      <p class="lead fs-6 fw-bolder">Web Develop | Apps Develop</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L6.2,234.7C12.3,213,25,171,37,144C49.2,117,62,107,74,128C86.2,149,98,203,111,213.3C123.1,224,135,192,148,176C160,160,172,160,185,160C196.9,160,209,160,222,165.3C233.8,171,246,181,258,165.3C270.8,149,283,107,295,112C307.7,117,320,171,332,181.3C344.6,192,357,160,369,144C381.5,128,394,128,406,160C418.5,192,431,256,443,250.7C455.4,245,468,171,480,149.3C492.3,128,505,160,517,160C529.2,160,542,128,554,112C566.2,96,578,96,591,112C603.1,128,615,160,628,144C640,128,652,64,665,37.3C676.9,11,689,21,702,69.3C713.8,117,726,203,738,234.7C750.8,267,763,245,775,234.7C787.7,224,800,224,812,229.3C824.6,235,837,245,849,224C861.5,203,874,149,886,144C898.5,139,911,181,923,192C935.4,203,948,181,960,192C972.3,203,985,245,997,256C1009.2,267,1022,245,1034,208C1046.2,171,1058,117,1071,85.3C1083.1,53,1095,43,1108,80C1120,117,1132,203,1145,202.7C1156.9,203,1169,117,1182,80C1193.8,43,1206,53,1218,96C1230.8,139,1243,213,1255,250.7C1267.7,288,1280,288,1292,277.3C1304.6,267,1317,245,1329,213.3C1341.5,181,1354,139,1366,128C1378.5,117,1391,139,1403,128C1415.4,117,1428,75,1434,53.3L1440,32L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"></path></svg>
+
+    </section>
+      <!-- jumbotron end -->
+
+
+      <!-- About me -->
+      <section id="about" >
+        <div class="container ">
+          <div class="row text-center">
+            <div class="col mb-3">
+              <h2>About me</h2>
+            </div>  
+            <hr>      
+          </div>
+          <div class="row">
+            <div class="col-md mb-3 bio">
+              <h5>Biografi</h5>
+              I was born in Tangerang, I am the 2nd of 3 children, I am a graduate of S1 high level school at Raharja university graduated with cumlaude score, with my current age of 20 years maybe in the future I will become an expert in the field I am engaged in, thanks to prayers from parents insyallah I can make my parents proud, state and religion.
+            </div>
+
+            <div class="col-md mb-3 skill">
+              <h5>My Skill</h5>
+              
+           <li>Html</li>
+           <li>Css</li>
+           <li>Javascript</li>
+            </div>
+          
+          </div>
+        </div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffc67c" fill-opacity="1" d="M0,96L6.2,90.7C12.3,85,25,75,37,80C49.2,85,62,107,74,144C86.2,181,98,235,111,224C123.1,213,135,139,148,112C160,85,172,107,185,96C196.9,85,209,43,222,32C233.8,21,246,43,258,48C270.8,53,283,43,295,37.3C307.7,32,320,32,332,58.7C344.6,85,357,139,369,149.3C381.5,160,394,128,406,122.7C418.5,117,431,139,443,144C455.4,149,468,139,480,144C492.3,149,505,171,517,176C529.2,181,542,171,554,165.3C566.2,160,578,160,591,138.7C603.1,117,615,75,628,58.7C640,43,652,53,665,53.3C676.9,53,689,43,702,53.3C713.8,64,726,96,738,96C750.8,96,763,64,775,69.3C787.7,75,800,117,812,154.7C824.6,192,837,224,849,218.7C861.5,213,874,171,886,138.7C898.5,107,911,85,923,85.3C935.4,85,948,107,960,122.7C972.3,139,985,149,997,176C1009.2,203,1022,245,1034,234.7C1046.2,224,1058,160,1071,117.3C1083.1,75,1095,53,1108,58.7C1120,64,1132,96,1145,96C1156.9,96,1169,64,1182,69.3C1193.8,75,1206,117,1218,117.3C1230.8,117,1243,75,1255,90.7C1267.7,107,1280,181,1292,202.7C1304.6,224,1317,192,1329,202.7C1341.5,213,1354,267,1366,245.3C1378.5,224,1391,128,1403,101.3C1415.4,75,1428,117,1434,138.7L1440,160L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"></path></svg> -->
+      </section>
+      <!-- About me end-->
+<hr>
+      <!-- project-->
+      <section id="project" class="pro-b">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col mb-3">
+              <h2>My Project</h2>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="../img/gambar1 (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="../img/gambar(4).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="../img/gambar1 (3).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="../img/gambar(4).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L6.2,90.7C12.3,85,25,75,37,80C49.2,85,62,107,74,144C86.2,181,98,235,111,224C123.1,213,135,139,148,112C160,85,172,107,185,96C196.9,85,209,43,222,32C233.8,21,246,43,258,48C270.8,53,283,43,295,37.3C307.7,32,320,32,332,58.7C344.6,85,357,139,369,149.3C381.5,160,394,128,406,122.7C418.5,117,431,139,443,144C455.4,149,468,139,480,144C492.3,149,505,171,517,176C529.2,181,542,171,554,165.3C566.2,160,578,160,591,138.7C603.1,117,615,75,628,58.7C640,43,652,53,665,53.3C676.9,53,689,43,702,53.3C713.8,64,726,96,738,96C750.8,96,763,64,775,69.3C787.7,75,800,117,812,154.7C824.6,192,837,224,849,218.7C861.5,213,874,171,886,138.7C898.5,107,911,85,923,85.3C935.4,85,948,107,960,122.7C972.3,139,985,149,997,176C1009.2,203,1022,245,1034,234.7C1046.2,224,1058,160,1071,117.3C1083.1,75,1095,53,1108,58.7C1120,64,1132,96,1145,96C1156.9,96,1169,64,1182,69.3C1193.8,75,1206,117,1218,117.3C1230.8,117,1243,75,1255,90.7C1267.7,107,1280,181,1292,202.7C1304.6,224,1317,192,1329,202.7C1341.5,213,1354,267,1366,245.3C1378.5,224,1391,128,1403,101.3C1415.4,75,1428,117,1434,138.7L1440,160L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"></path></svg> -->
+      </section>
+
+
+      <!-- project end -->
+<hr>
+
+      <!-- contact -->
+      <section id="contact">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h2>My Contac</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="send you email">
+            </div>
+            
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">meseage</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+          </div>
+          
+        </div>
+      
+      </section>
+       <!-- contact end -->
+       
+       <!-- footer -->
+       <footer class=" text-center" style="background-color: #edfeeb">
+        <p><i class="bi bi-c-circle-fill "></i>2022.created-All-reverse<a href="https://instagram.com"  class="text-decoration-none"> malik fajar</a></p>
+        <div class="i-sos">
+          <a href="https://api.whatsapp.com/send?phone=085810641060" class="wa-i">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/malikfajar130103/" class="ig-i">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/lik" class=""><i class="bi bi-facebook"></i></a>
+
+        </div>
+        
+
+       </footer>
+       <!-- footer end -->
+     
+    <script src="../javascript/Jquery.js"></script>
+    <script src="../javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
