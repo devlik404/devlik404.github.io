@@ -53,8 +53,7 @@ function copy(){
 const link = document.querySelector('.download');
 $(document).ready(function(){
 $('.download').click(function(){
-   link.href = 'http://127.0.0.1:5501/img/HTML.png';
-   link.download = '/img/HTML.png';
+   link.download = 'img/HTML.png';
 });
 });
 
