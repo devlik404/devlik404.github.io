@@ -84,14 +84,7 @@ nav{
     font-weight: 500;
     color: rgb(129, 46, 161);
 }
-/* 
-.jumbotron .tombol{
-    padding: 30px;
-    margin-top: 50px;
-    border-radius: 40px;
-    background-color:transparent;
- 
-} */
+
 /* =========================================================================== */
 /* container */
 
@@ -150,6 +143,7 @@ padding: 10px;
 }
 .container-about .container .card{
     width: 18rem;
+    
 
 }
 
