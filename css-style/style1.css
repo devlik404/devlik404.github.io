@@ -8,12 +8,8 @@ font-family: 'Nosifer', cursive;
 font-family: 'Rubik Microbe', cursive;
 font-family: 'Rubik Moonrocks', cursive; */
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
+
+
 body{
    
     overflow-x: hidden;
@@ -105,7 +101,6 @@ background-color: rgb(237, 202, 246);
 padding: 10px;
 }
 .info-pannel img{
-
     margin: 6px;
   
 }
@@ -117,7 +112,7 @@ padding: 10px;
 /* about style*/
 .container-about{
   padding-top: 3rem;
-   box-shadow: 0px  10px  4px 0px rgba(0,0,0,0.6);
+
 }
 .container-about h3{
     text-align: center;
@@ -235,6 +230,8 @@ h3{
 
  
 /* overlay */
+
+
 .overlay{
     display: none;
     position: fixed;
@@ -248,11 +245,12 @@ h3{
  
 }
 .overlay .container {
-  width: 30rem;
+  width: 20rem;
+  
 }
 .container .share{
-    padding: 40px;
-    margin-top: 18rem;
+    padding: 35px;
+    margin-top: 15rem;
     background-color: #ffffff;
     position: relative;
 }
@@ -303,9 +301,9 @@ word-spacing: 10px;
     font-size: 40px;
 
 }
-.container-card{
+/* .container-card{
     box-shadow: 10px  1px  10px 6px rgba(0,0,0,0.6);
-}
+} */
 .container-card .container .card{
     transform: translate(200px,0);
     transition: 3s;
@@ -427,6 +425,9 @@ margin-top: 2rem;
     color: rgb(115, 111, 125);
     font-size: small;
 }
+footer .group ul li a{
+    text-decoration: none;
+}
 
 
 
@@ -447,4 +448,7 @@ margin-top: 2rem;
 .container-about .container .card{
     width: 38rem;
 }
+.overlay .container {
+    width: 35rem;
+  }
  }
