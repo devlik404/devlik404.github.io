@@ -128,22 +128,22 @@ padding: 10px;
     padding: 21px;
 }
 
-.container-about .biografi{
+/* .container-about .biografi{
     opacity: 0;
-    transition: 4s;
-    transform: translate(-200px,0);
+    transition: 5s;
+   
 }
 
 .container-about .skill{
     opacity: 0;
-    transition: 4s;
-    transform: translate(200px,0);
+    transition: 5s;
+  
 }
 .biografi.left,
 .skill.right{
     opacity: 1;
-    transform: translate(0,0);
-}
+   
+} */
 .container-about .container .resume{
     width: 18rem;
 
@@ -305,9 +305,7 @@ word-spacing: 10px;
     font-size: 40px;
 
 }
-/* .container-card{
-    box-shadow: 10px  1px  10px 6px rgba(0,0,0,0.6);
-} */
+
 .container-card .container .card{
     transform: translate(0px,400px);
     transition: 3s;
@@ -467,5 +465,21 @@ footer .group ul li a{
     transform: translate(0px,0);
     transition: 5s;
     opacity: 1;
+}
+.container-about .biografi{
+    opacity: 0;
+    transition: 4s;
+    transform: translate(-200px,0);
+}
+
+.container-about .skill{
+    opacity: 0;
+    transition: 4s;
+    transform: translate(200px,0);
+}
+.biografi.left,
+.skill.right{
+    opacity: 1;
+    transform: translate(0,0);
 }
  }

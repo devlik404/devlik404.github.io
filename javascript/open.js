@@ -10,11 +10,6 @@ $(window).on('load', function(){
 //  scroll
 $(window).scroll(function(){
    const wScroll = $(this).scrollTop();
-//    $('.project h3').css({
-//     'transform': 'translate(0px,'+ wScroll /10 + '%)',
-//     'transition':'1.5s'
-//  });
-
 
    if (wScroll > $('.sclproject').offset().top-600){
     $('.container-card .container .card').each(function(i){
