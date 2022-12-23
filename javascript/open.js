@@ -16,7 +16,7 @@ $(window).scroll(function(){
 //  });
 
 
-   if (wScroll > $('.sclproject').offset().top-400){
+   if (wScroll > $('.sclproject').offset().top-600){
     $('.container-card .container .card').each(function(i){
        setTimeout(function(){
           $('.container-card  .container .card').eq(i).addClass ('tumbnail');

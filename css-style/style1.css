@@ -13,7 +13,8 @@ font-family: 'Rubik Moonrocks', cursive; */
 body{
    
     overflow-x: hidden;
-  
+    background-color: #333;
+ 
 }
 /* navbar */
 nav{
@@ -291,6 +292,9 @@ h3{
 padding: 10px;
 word-spacing: 10px;
 }
+.container .share .image-share img{
+    width: 40px;
+}
 
 /* ====================================================== */
 
@@ -305,13 +309,13 @@ word-spacing: 10px;
     box-shadow: 10px  1px  10px 6px rgba(0,0,0,0.6);
 } */
 .container-card .container .card{
-    transform: translate(200px,0);
+    transform: translate(0px,400px);
     transition: 3s;
     opacity: 0;
 }
 .container-card .container .card.tumbnail{
     transform: translate(0px,0);
-    transition: 3s;
+    transition: 4s;
     opacity: 1;
 }
 .container-card{
@@ -451,4 +455,17 @@ footer .group ul li a{
 .overlay .container {
     width: 35rem;
   }
+  .container .share .image-share img{
+    width: 50px;
+}
+.container-card .container .card{
+    transform: translate(200px,0);
+    transition: 3s;
+    opacity: 0;
+}
+.container-card .container .card.tumbnail{
+    transform: translate(0px,0);
+    transition: 5s;
+    opacity: 1;
+}
  }
