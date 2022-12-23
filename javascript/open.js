@@ -1,16 +1,17 @@
 // load 
 
 
-$(window).on('load', function(){
-    $('.container-about .biografi').addClass('left');
-    $('.container-about .skill').addClass('right');
-
- });
+// $(window).on('load', function(){
+   
+//  });
 
 //  scroll
 $(window).scroll(function(){
    const wScroll = $(this).scrollTop();
-
+   if (wScroll > $('#container-panel').offset().top-200){
+      $('.container-about .biografi').addClass('left');
+      $('.container-about .skill').addClass('right');  
+   }
    if (wScroll > $('.sclproject').offset().top-600){
     $('.container-card .container .card').each(function(i){
        setTimeout(function(){
